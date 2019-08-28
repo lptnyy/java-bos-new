@@ -6,14 +6,4 @@ public abstract class RegistryProperties {
     String type;
     String ip;
     String port;
-
-    public RegistryProperties(){
-
-    }
-
-    public RegistryProperties(String type,String ip,String port){
-        this.type = type;
-        this.ip = ip;
-        this.port = port;
-    }
 }
