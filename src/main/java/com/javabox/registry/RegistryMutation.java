@@ -1,4 +1,4 @@
-package com.javabox.registry.mutation;
+package com.javabox.registry;
 
 public interface RegistryMutation {
 }

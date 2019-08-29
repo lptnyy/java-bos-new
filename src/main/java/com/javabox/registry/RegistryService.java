@@ -1,4 +1,4 @@
-package com.javabox.registry.service;
+package com.javabox.registry;
 
 public interface RegistryService {
 

@@ -1,4 +1,4 @@
-package com.javabox.registry.query;
+package com.javabox.registry;
 
 public interface RegistryQuery {
 }
