@@ -1,5 +1,5 @@
 package com.javabox.registry.business;
 
-public interface QueryBusiness {
+public interface QueryBusiness<T> {
 
 }

@@ -2,12 +2,12 @@ package com.javabox.registry.business;
 
 import com.javabox.registry.ServerNode;
 
-public interface ModifyBusiness {
+public interface ModifyBusiness<T> {
 
     /**
      * 注册服务
      * @param serverNode
      * @return
      */
-    boolean registryNode(ServerNode serverNode);
+    boolean registryNode(T t,ServerNode serverNode);
 }
